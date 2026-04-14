@@ -1,0 +1,457 @@
+const imgRectangle = "https://www.figma.com/api/mcp/asset/94efef7f-c390-4a06-ace3-e104d807cb20";
+const imgRectangle2 = "https://www.figma.com/api/mcp/asset/40ce3abc-e337-41b4-9de3-15737c6414fd";
+const imgRectangle3 = "https://www.figma.com/api/mcp/asset/b3388242-e5f6-4144-b15f-f4043bc12826";
+const imgGroup = "https://www.figma.com/api/mcp/asset/e65ff1b8-931a-4272-91a6-dc9bf90839e7";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/5f45e678-96dd-475f-a262-0fc8b80b8469";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/a0acb69f-96b2-4e03-9471-219da13edb40";
+const imgGroup3 = "https://www.figma.com/api/mcp/asset/0a071426-f356-44ef-98e6-d7e946a997aa";
+const imgGroup4 = "https://www.figma.com/api/mcp/asset/2c05a1fe-cfd0-4a05-bf96-d2d5e2bbe015";
+const imgGroup5 = "https://www.figma.com/api/mcp/asset/f42cf2c9-39b2-4e45-b0e6-e4d149f2294d";
+const imgGroup6 = "https://www.figma.com/api/mcp/asset/44d1a90d-dbb0-4843-a2a1-77d5931164c2";
+const imgGroup7 = "https://www.figma.com/api/mcp/asset/72e56497-ba23-4a32-8755-a2280dd15454";
+const imgGroup8 = "https://www.figma.com/api/mcp/asset/16ea98d4-c9e4-4e56-a54c-edfb3a160cd1";
+const imgGroup9 = "https://www.figma.com/api/mcp/asset/55933ecf-4d86-4083-84ae-045d9cfc0d2f";
+const imgVector = "https://www.figma.com/api/mcp/asset/2bf76367-90ac-4e01-847a-fe6e8977e50f";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/b8ec9909-d6ac-443b-99c9-530dabc879c1";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/6ace8107-0dfb-4cfc-840e-ca5509e740f4";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/69c43d5d-dc52-4755-a191-b48f5470cbac";
+const imgGroup10 = "https://www.figma.com/api/mcp/asset/bef8b238-25ca-441c-bfb9-e3f61cd7b501";
+const imgGroup11 = "https://www.figma.com/api/mcp/asset/e06820f9-6ac7-4988-80bd-0e27e3f3bb70";
+const imgGroup12 = "https://www.figma.com/api/mcp/asset/e13bb552-2751-44c9-98ca-ca61da198116";
+const imgGroup13 = "https://www.figma.com/api/mcp/asset/c17a16f5-5a3e-4f33-9bdd-e21b63c6f346";
+const imgGroup14 = "https://www.figma.com/api/mcp/asset/4ef37ae4-aa43-4e24-a1f5-12135e8251e4";
+const imgGroup15 = "https://www.figma.com/api/mcp/asset/7fa2f0e1-c53d-4e14-b289-a412aa4f1a6b";
+const imgGroup16 = "https://www.figma.com/api/mcp/asset/2b571287-1411-4f25-885c-b312626f60c3";
+const imgGroup17 = "https://www.figma.com/api/mcp/asset/d2a9ca58-f45a-4da1-9ff9-361ac6bcd58f";
+const imgGroup18 = "https://www.figma.com/api/mcp/asset/c827d5d4-997b-4324-821f-952d72d45185";
+const imgGroup19 = "https://www.figma.com/api/mcp/asset/e8f854f8-8597-4294-9107-c6a9a8bac4b8";
+const imgGroup20 = "https://www.figma.com/api/mcp/asset/f2bbc52d-5d0a-48a6-be27-d3804239db1b";
+const imgGroup21 = "https://www.figma.com/api/mcp/asset/49e4adfe-0134-4855-9680-38aad62f7f5e";
+const imgGroup22 = "https://www.figma.com/api/mcp/asset/f0c8865d-c2a8-4859-9e7c-9ddf10c08702";
+const imgGroup23 = "https://www.figma.com/api/mcp/asset/12ff263b-80a7-422e-967f-4e16e92575b8";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/1d7fa037-e212-45bb-8e09-d79a0ce07f28";
+const imgVector5 = "https://www.figma.com/api/mcp/asset/459627b3-b3dd-4d46-bd9d-2bdbe9b3e271";
+const imgVector6 = "https://www.figma.com/api/mcp/asset/8ea30d8b-1ea5-4681-a2a0-f1072ad69e5b";
+const imgVector7 = "https://www.figma.com/api/mcp/asset/f0dd89fa-bb72-4b7f-aae2-9779ecbae954";
+const imgGroup24 = "https://www.figma.com/api/mcp/asset/cdaaa985-9e60-406a-94a6-ab3c8d090c25";
+const imgGroup25 = "https://www.figma.com/api/mcp/asset/8c0db8b5-ab7f-4efa-976c-68b3265c28d8";
+const imgGroup26 = "https://www.figma.com/api/mcp/asset/80b6204a-b35c-4f30-b17d-bada0009be09";
+const imgGroup27 = "https://www.figma.com/api/mcp/asset/4893d28e-8277-4774-9dab-905901dd5fe8";
+const imgGroup28 = "https://www.figma.com/api/mcp/asset/9d318d00-eb43-43e0-adfd-ff81907e9144";
+const imgGroup29 = "https://www.figma.com/api/mcp/asset/5ea2e0ad-151c-42bd-b605-26faa4cb6720";
+const imgGroup30 = "https://www.figma.com/api/mcp/asset/c1e2b81e-44a8-46d1-8a23-bb27487bacbe";
+const imgGroup31 = "https://www.figma.com/api/mcp/asset/a6b675b2-5a5a-4d0f-93aa-7019f5bba8b5";
+const imgGroup32 = "https://www.figma.com/api/mcp/asset/fcaee522-b803-411b-9ccb-5dc0ba590bcc";
+const imgGroup33 = "https://www.figma.com/api/mcp/asset/d77a42b1-e916-48ae-898e-af8fe0b0a443";
+const imgGroup34 = "https://www.figma.com/api/mcp/asset/b25cc839-742f-461b-9bff-f173dc490f4d";
+const imgGroup35 = "https://www.figma.com/api/mcp/asset/95666fa4-ae9d-419e-af91-1ace6d00749d";
+const imgGroup36 = "https://www.figma.com/api/mcp/asset/76e98c9a-9257-48ca-abb9-1a49874d1e53";
+const imgGroup37 = "https://www.figma.com/api/mcp/asset/e852e01a-8856-4dc5-b93a-6ee3969893ce";
+const imgVector8 = "https://www.figma.com/api/mcp/asset/54378f9d-d712-475e-9525-f3ef30a45760";
+const imgVector9 = "https://www.figma.com/api/mcp/asset/ff8098d7-2a6d-4342-9a71-bede359271d9";
+const imgVector10 = "https://www.figma.com/api/mcp/asset/38294da4-f6c9-4f2b-bdc3-c33d5d90299b";
+const imgVector11 = "https://www.figma.com/api/mcp/asset/f19e276e-ff59-4af8-a296-2820a967815c";
+const imgVector12 = "https://www.figma.com/api/mcp/asset/26b53b9b-e40f-4476-8a4c-1d5cada8ccf2";
+const imgGroup38 = "https://www.figma.com/api/mcp/asset/f7681c38-4916-4323-88c2-c7d51c09dfe7";
+const imgGroup39 = "https://www.figma.com/api/mcp/asset/a902e558-f102-4b0c-af65-9588accc974a";
+const imgGroup40 = "https://www.figma.com/api/mcp/asset/f2abef5e-5bbc-4c92-9407-a82792aa8856";
+const imgGroup41 = "https://www.figma.com/api/mcp/asset/bc751a94-f1a9-4d02-9216-6f2ac4fe6da8";
+const imgGroup42 = "https://www.figma.com/api/mcp/asset/0a4218f0-5e30-4e26-93dd-7b5576027b1c";
+const imgVector13 = "https://www.figma.com/api/mcp/asset/0a63e6e3-2450-4dd7-876d-933b924327dc";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/fce69572-4d34-4cfa-af07-c982eacc9d00";
+const imgVector14 = "https://www.figma.com/api/mcp/asset/6e44783c-03c1-46ca-b0a0-60c79d525834";
+const imgGroup43 = "https://www.figma.com/api/mcp/asset/a50f0296-3f92-42f5-a75a-f8e64662cf92";
+const imgGroup44 = "https://www.figma.com/api/mcp/asset/9cbdaf86-7a39-43e4-995c-f6f9dbc341ef";
+const imgGroup45 = "https://www.figma.com/api/mcp/asset/8788e62f-9b25-4df8-95ab-693cdd58db0a";
+const imgGroup46 = "https://www.figma.com/api/mcp/asset/c336871c-1c48-45c2-bde1-3be86b25d7a6";
+const imgVector15 = "https://www.figma.com/api/mcp/asset/a86e6ac0-487a-4b41-afdd-c5c81d82d5f2";
+const imgVector16 = "https://www.figma.com/api/mcp/asset/e66ae9da-4fd0-4c01-bb24-a395a7e27710";
+const imgVector17 = "https://www.figma.com/api/mcp/asset/99fd1ae0-42fe-4e8e-a0ea-87c2b9801cc3";
+const imgVector18 = "https://www.figma.com/api/mcp/asset/a475c939-7cda-469c-b4ed-16bc1b2e4367";
+const imgVector19 = "https://www.figma.com/api/mcp/asset/f734927f-7b2d-475c-82fd-76250769607a";
+const imgVector20 = "https://www.figma.com/api/mcp/asset/e8880a09-339a-4695-8e9a-e536ef7a986e";
+const imgGroup47 = "https://www.figma.com/api/mcp/asset/1f847ac1-ef86-4945-bfeb-789a2f8c19ce";
+const imgGroup48 = "https://www.figma.com/api/mcp/asset/9a1b8589-7522-45f0-b365-ad33da467fcb";
+const imgGroup49 = "https://www.figma.com/api/mcp/asset/2d0cd06c-754b-4c38-ad05-93038f46ae50";
+const imgVector21 = "https://www.figma.com/api/mcp/asset/0d0a88b4-6213-47df-9c66-7e0a08dc5764";
+const imgVector22 = "https://www.figma.com/api/mcp/asset/24902c4c-dbc2-4aeb-a016-e70ac10445ff";
+const imgVector23 = "https://www.figma.com/api/mcp/asset/25d8f0f2-6244-4233-932a-f892f6c1052e";
+const imgVector24 = "https://www.figma.com/api/mcp/asset/ef7c41fb-c4e0-405c-ad9a-459fccb9c5b0";
+const imgGroup50 = "https://www.figma.com/api/mcp/asset/3bdc5985-ec8d-4c78-bc58-f5a39fd1ce6a";
+const imgVector25 = "https://www.figma.com/api/mcp/asset/ef622e04-61c4-4f2a-863a-c2af95a9bbd6";
+const imgVector26 = "https://www.figma.com/api/mcp/asset/98ee40cc-8fe5-45d0-9c6a-fafc01fc5792";
+const imgVector27 = "https://www.figma.com/api/mcp/asset/13076d74-1e4e-4ce1-9eae-57468a31710a";
+const imgVector28 = "https://www.figma.com/api/mcp/asset/163df98b-7456-49b7-a788-ae6cc87b16aa";
+const imgVector29 = "https://www.figma.com/api/mcp/asset/fe8fef59-f276-4727-b89d-8a6f2ec0dec6";
+const imgVector30 = "https://www.figma.com/api/mcp/asset/922a0f60-9425-45d5-9408-106eb770d142";
+const imgVector31 = "https://www.figma.com/api/mcp/asset/9ca80b6e-1ffa-47db-86a3-f2d381894b8e";
+const imgVector32 = "https://www.figma.com/api/mcp/asset/d8b2816b-38ae-40d6-8a6b-64217aa81564";
+const imgGroup51 = "https://www.figma.com/api/mcp/asset/79202880-b7ab-4de8-a3f0-17bb85c7678c";
+const imgGroup52 = "https://www.figma.com/api/mcp/asset/dc741452-0542-4eaa-abd0-34f1eef41253";
+const imgGroup53 = "https://www.figma.com/api/mcp/asset/5c03ac86-3396-410c-bb0b-580a7b09c731";
+const imgGroup54 = "https://www.figma.com/api/mcp/asset/821e5eec-5e3c-4115-aaff-663f5d6047f5";
+const imgGroup55 = "https://www.figma.com/api/mcp/asset/4dca8bef-83e6-422e-b3c9-ea5a403530cf";
+const imgGroup56 = "https://www.figma.com/api/mcp/asset/67834fd9-9d1b-4fd3-87fb-5e37d95904c7";
+const imgGroup57 = "https://www.figma.com/api/mcp/asset/499e0e24-455d-44a6-9d56-eadf8ac941ab";
+const imgGroup58 = "https://www.figma.com/api/mcp/asset/5f62a886-d028-4133-96ce-a7b331f9428e";
+
+export default function Frame1707486764() {
+  return (
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[188px] left-[calc(50%-0.16px)] overflow-clip top-[calc(50%-0.22px)] w-[262px]" data-node-id="3:4999">
+          <div className="absolute contents inset-[-2.08%_1.23%_-2.07%_0.98%]" data-node-id="3:5000" data-name="Group">
+            <div className="absolute contents inset-[-2.08%_1.23%_-2.07%_0.98%]" data-node-id="3:5001" data-name="Layer 1">
+              <div className="absolute inset-[39.58%_9.52%_-2.07%_0.98%] mix-blend-multiply" data-node-id="3:5002" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+              <div className="absolute inset-[5.38%_35.41%_47.19%_44.44%]" data-node-id="3:5015" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+              <div className="absolute inset-[36%_9.52%_0.95%_5.3%]" data-node-id="3:5019" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+              </div>
+              <div className="absolute contents inset-[27.85%_23.66%_28.26%_52.43%]" data-node-id="3:5022" data-name="Group">
+                <div className="absolute inset-[55.05%_23.66%_28.26%_52.43%] mix-blend-multiply" data-node-id="3:5023" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+                </div>
+                <div className="absolute inset-[27.85%_23.66%_31%_56.39%]" data-node-id="3:5046" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                </div>
+                <div className="absolute contents inset-[38.52%_24.87%_44.74%_67.51%]" data-node-id="3:5049" data-name="Group">
+                  <div className="absolute inset-[38.52%_24.87%_54.29%_67.51%]" data-node-id="3:5050" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+                  </div>
+                  <div className="absolute inset-[41.71%_24.87%_51.11%_67.51%]" data-node-id="3:5057" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
+                  </div>
+                  <div className="absolute inset-[44.89%_24.87%_47.92%_67.51%]" data-node-id="3:5064" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup7} />
+                  </div>
+                  <div className="absolute inset-[48.08%_24.87%_44.74%_67.51%]" data-node-id="3:5071" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup8} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[24.08%_27.99%_59.8%_59.25%]" data-node-id="3:5078" data-name="Group">
+                <div className="absolute inset-[31.31%_28.01%_59.8%_59.25%] mix-blend-multiply" data-node-id="3:5079" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup9} />
+                </div>
+                <div className="absolute inset-[27.69%_33.16%_61.5%_61.68%]" data-node-id="3:5092" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+                </div>
+                <div className="absolute inset-[27.69%_27.99%_61.5%_66.84%]" data-node-id="3:5093" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+                </div>
+                <div className="absolute inset-[24.08%_27.99%_68.71%_61.68%]" data-node-id="3:5094" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+                </div>
+                <div className="absolute inset-[31.22%_33.13%_65.04%_61.66%]" data-node-id="3:5095" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                </div>
+              </div>
+              <div className="absolute contents inset-[41.63%_47.34%_28.31%_29.76%]" data-node-id="3:5096" data-name="Group">
+                <div className="absolute inset-[55.72%_47.36%_28.31%_29.76%] mix-blend-multiply" data-node-id="3:5097" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup10} />
+                </div>
+                <div className="absolute contents inset-[41.63%_47.34%_30.23%_32.5%]" data-node-id="3:5110" data-name="Group">
+                  <div className="absolute inset-[53.14%_47.34%_30.23%_32.5%]" data-node-id="3:5111" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup11} />
+                  </div>
+                  <div className="absolute inset-[49.3%_47.34%_34.07%_32.5%]" data-node-id="3:5115" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup12} />
+                  </div>
+                  <div className="absolute inset-[45.47%_47.34%_37.9%_32.5%]" data-node-id="3:5119" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup13} />
+                  </div>
+                  <div className="absolute inset-[41.63%_47.34%_41.74%_32.5%]" data-node-id="3:5123" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup14} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute inset-[25.06%_47.34%_46.81%_32.5%]" data-node-id="3:5127" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup15} />
+              </div>
+              <div className="absolute contents inset-[49.94%_35.47%_20%_41.63%]" data-node-id="3:5135" data-name="Group">
+                <div className="absolute inset-[64.03%_35.49%_20%_41.63%] mix-blend-multiply" data-node-id="3:5136" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup16} />
+                </div>
+                <div className="absolute contents inset-[49.94%_35.47%_21.92%_44.38%]" data-node-id="3:5149" data-name="Group">
+                  <div className="absolute inset-[49.94%_43.72%_27.68%_44.38%]" data-node-id="3:5150" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup17} />
+                  </div>
+                  <div className="absolute inset-[51.86%_40.97%_25.76%_47.12%]" data-node-id="3:5154" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup18} />
+                  </div>
+                  <div className="absolute inset-[53.78%_38.22%_23.84%_49.87%]" data-node-id="3:5158" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup19} />
+                  </div>
+                  <div className="absolute inset-[51.86%_40.97%_25.76%_47.12%]" data-node-id="3:5162" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup20} />
+                  </div>
+                  <div className="absolute inset-[53.78%_38.22%_23.84%_49.87%]" data-node-id="3:5166" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup21} />
+                  </div>
+                  <div className="absolute inset-[55.7%_35.47%_21.92%_52.62%]" data-node-id="3:5170" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup22} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[32.75%_35.44%_36.55%_41.63%]" data-node-id="3:5181" data-name="Group">
+                <div className="absolute inset-[47.48%_35.49%_36.55%_41.63%] mix-blend-multiply" data-node-id="3:5182" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup23} />
+                </div>
+                <div className="absolute contents inset-[32.75%_35.44%_38.47%_44.38%]" data-node-id="3:5195" data-name="Group">
+                  <div className="absolute inset-[40.43%_45.55%_38.47%_44.38%]" data-node-id="3:5196" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector4} />
+                  </div>
+                  <div className="absolute inset-[40.43%_35.47%_38.47%_54.45%]" data-node-id="3:5197" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector5} />
+                  </div>
+                  <div className="absolute inset-[46.23%_35.44%_44.29%_54.42%]" data-node-id="3:5198" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
+                  </div>
+                  <div className="absolute inset-[33.39%_35.47%_52.54%_44.38%]" data-node-id="3:5199" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+                  </div>
+                  <div className="absolute contents inset-[32.75%_39.37%_55.22%_48.27%]" data-node-id="3:5200" data-name="Group">
+                    <div className="absolute inset-[32.75%_39.37%_56.48%_48.27%]" data-node-id="3:5201" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup24} />
+                    </div>
+                    <div className="absolute inset-[36.98%_39.37%_56.58%_56.95%]" data-node-id="3:5206" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup25} />
+                    </div>
+                    <div className="absolute inset-[38.63%_41.05%_55.22%_50.08%]" data-node-id="3:5210" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup26} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[45.35%_47.27%_43.4%_46.1%]" data-node-id="3:5213" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup27} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[35.65%_69.52%_48.2%_17.89%]" data-node-id="3:5233" data-name="Group">
+                <div className="absolute inset-[43.01%_69.52%_48.2%_17.89%] mix-blend-multiply" data-node-id="3:5234" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup28} />
+                </div>
+                <div className="absolute contents inset-[35.65%_69.52%_50.06%_20.56%]" data-node-id="3:5257" data-name="Group">
+                  <div className="absolute inset-[41.34%_69.52%_50.06%_20.56%]" data-node-id="3:5258" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup29} />
+                  </div>
+                  <div className="absolute inset-[38.49%_69.52%_52.9%_20.56%]" data-node-id="3:5261" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup30} />
+                  </div>
+                  <div className="absolute inset-[35.65%_69.52%_55.75%_20.56%]" data-node-id="3:5264" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup31} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[49.75%_61.1%_20.84%_17.24%]" data-node-id="3:5272" data-name="Group">
+                <div className="absolute inset-[64.2%_61.34%_20.84%_17.24%] mix-blend-multiply" data-node-id="3:5273" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup32} />
+                </div>
+                <div className="absolute contents inset-[49.75%_61.1%_23.23%_20.11%]" data-node-id="3:5296" data-name="Group">
+                  <div className="absolute inset-[49.75%_66.44%_26.96%_20.11%]" data-node-id="3:5297" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup33} />
+                  </div>
+                  <div className="absolute inset-[51.61%_63.77%_25.1%_22.78%]" data-node-id="3:5300" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup34} />
+                  </div>
+                  <div className="absolute inset-[53.48%_61.1%_23.23%_25.44%]" data-node-id="3:5303" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup35} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[55.36%_13.98%_23.31%_69.15%]" data-node-id="3:5306" data-name="Group">
+                <div className="absolute inset-[64.91%_13.98%_23.31%_69.15%] mix-blend-multiply" data-node-id="3:5307" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup36} />
+                </div>
+                <div className="absolute contents inset-[55.36%_13.98%_25.33%_72.03%]" data-node-id="3:5320" data-name="Group">
+                  <div className="absolute inset-[55.88%_13.98%_25.33%_72.03%]" data-node-id="3:5321" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup37} />
+                  </div>
+                  <div className="absolute contents inset-[55.36%_16.26%_36.17%_72.03%]" data-node-id="3:5324" data-name="Group">
+                    <div className="absolute inset-[60.31%_21.04%_36.17%_72.03%] mix-blend-multiply" data-node-id="3:5325" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector8} />
+                    </div>
+                    <div className="absolute inset-[55.36%_16.26%_36.17%_74.18%]" data-node-id="3:5326" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+                    </div>
+                    <div className="absolute inset-[55.36%_16.26%_37.97%_74.18%]" data-node-id="3:5327" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector10} />
+                    </div>
+                    <div className="absolute inset-[56.85%_18.4%_39.46%_76.31%]" data-node-id="3:5328" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector11} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[65.92%_23.69%_29.65%_73.96%]" data-node-id="3:5329" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector12} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[64.43%_51.32%_9.91%_28.75%]" data-node-id="3:5330" data-name="Group">
+                <div className="absolute inset-[76.17%_51.32%_9.91%_28.75%] mix-blend-multiply" data-node-id="3:5331" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup38} />
+                </div>
+                <div className="absolute contents inset-[64.43%_51.32%_12.17%_32%]" data-node-id="3:5344" data-name="Group">
+                  <div className="absolute inset-[73.48%_51.32%_12.17%_32%]" data-node-id="3:5345" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup39} />
+                  </div>
+                  <div className="absolute inset-[68.95%_51.32%_16.69%_32%]" data-node-id="3:5348" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup40} />
+                  </div>
+                  <div className="absolute inset-[64.43%_51.32%_21.22%_32%]" data-node-id="3:5351" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup41} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[57.45%_54.67%_26.23%_35.13%]" data-node-id="3:5355" data-name="Group">
+                <div className="absolute inset-[68.95%_57.51%_26.23%_35.59%] mix-blend-multiply" data-node-id="3:5356" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup42} />
+                </div>
+                <div className="absolute inset-[68.67%_57.01%_27.39%_37.41%]" data-node-id="3:5369" data-name="Rectangle">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle} />
+                  </div>
+                </div>
+                <div className="absolute contents inset-[57.45%_54.67%_28.3%_35.13%]" data-node-id="3:5370" data-name="Group">
+                  <div className="absolute inset-[57.45%_54.67%_28.3%_35.13%]" data-node-id="3:5371" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector13} />
+                  </div>
+                  <div className="absolute contents inset-[57.45%_54.67%_28.3%_35.13%]" data-node-id="3:5372" data-name="Clip path group">
+                    <div className="absolute contents inset-[57.81%_54.24%_34.55%_40.29%]" data-node-id="3:5375" data-name="Group">
+                      <div className="absolute inset-[57.81%_54.24%_34.55%_40.29%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-13.521px_-0.685px] mask-size-[26.734px_26.781px]" data-node-id="3:5376" style={{ maskImage: `url('${imgRectangle1}')` }} data-name="Rectangle">
+                        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                          <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle2} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-[57.6%_57.61%_39.4%_38.1%] mix-blend-screen" data-node-id="3:5377" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector14} />
+                </div>
+              </div>
+              <div className="absolute contents inset-[47.33%_85.99%_31.86%_7.05%]" data-node-id="3:5378" data-name="Group">
+                <div className="absolute inset-[63.8%_86.07%_31.86%_7.35%] mix-blend-multiply" data-node-id="3:5379" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup43} />
+                </div>
+                <div className="absolute inset-[47.33%_89.32%_49.55%_9.46%]" data-node-id="3:5392" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup44} />
+                </div>
+                <div className="absolute inset-[47.43%_90.89%_48.41%_7.05%]" data-node-id="3:5396" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup45} />
+                </div>
+                <div className="absolute inset-[49.71%_85.99%_45.82%_10.98%]" data-node-id="3:5399" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup46} />
+                </div>
+                <div className="absolute inset-[63.17%_88.94%_35.02%_9.13%]" data-node-id="3:5402" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector15} />
+                </div>
+                <div className="absolute inset-[53.83%_89.76%_35.87%_8.96%]" data-node-id="3:5403" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector16} />
+                </div>
+                <div className="absolute inset-[65.23%_86.79%_32.55%_11.1%]" data-node-id="3:5404" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector17} />
+                </div>
+                <div className="absolute inset-[54.57%_87.31%_33.9%_10.45%]" data-node-id="3:5405" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector18} />
+                </div>
+                <div className="absolute inset-[53.23%_88.27%_43.31%_8.96%]" data-node-id="3:5406" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+                </div>
+                <div className="absolute inset-[49.41%_88.27%_44.78%_8.57%]" data-node-id="3:5407" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector20} />
+                </div>
+              </div>
+              <div className="absolute inset-[34.98%_85.22%_50.63%_9.58%]" data-node-id="3:5408" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup47} />
+              </div>
+              <div className="absolute inset-[54.67%_6.13%_33.07%_91.71%]" data-node-id="3:5415" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup48} />
+              </div>
+              <div className="absolute contents inset-[65.75%_1.23%_12.94%_91.88%]" data-node-id="3:5419" data-name="Group">
+                <div className="absolute inset-[82.71%_1.54%_12.94%_91.88%] mix-blend-multiply" data-node-id="3:5420" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup49} />
+                </div>
+                <div className="absolute inset-[83.37%_3.77%_14.24%_94.32%]" data-node-id="3:5433" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector21} />
+                </div>
+                <div className="absolute inset-[82.29%_2.46%_16.07%_95.79%]" data-node-id="3:5434" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector22} />
+                </div>
+                <div className="absolute inset-[72.84%_3.72%_15.3%_94.36%]" data-node-id="3:5435" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector23} />
+                </div>
+                <div className="absolute inset-[71.8%_2.32%_16.54%_96.4%]" data-node-id="3:5436" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector24} />
+                </div>
+                <div className="absolute inset-[73.06%_1.33%_25.43%_98.1%]" data-node-id="3:5437" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup50} />
+                </div>
+                <div className="absolute inset-[68.38%_1.31%_26.57%_96.91%]" data-node-id="3:5441" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector25} />
+                </div>
+                <div className="absolute inset-[71.59%_2.35%_25.59%_95%]" data-node-id="3:5442" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector26} />
+                </div>
+                <div className="absolute inset-[66.57%_3.37%_31.98%_95.81%]" data-node-id="3:5443" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector27} />
+                </div>
+                <div className="absolute inset-[67.1%_3.34%_31.06%_95.95%]" data-node-id="3:5444" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector28} />
+                </div>
+                <div className="absolute inset-[68.4%_2.46%_26.88%_95.07%]" data-node-id="3:5445" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector29} />
+                </div>
+                <div className="absolute inset-[65.75%_6.64%_32.89%_92.57%]" data-node-id="3:5446" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector30} />
+                </div>
+                <div className="absolute inset-[66.63%_3.97%_29.94%_92.9%]" data-node-id="3:5447" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector31} />
+                </div>
+                <div className="absolute inset-[66.02%_1.23%_29.47%_95.43%]" data-node-id="3:5448" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector32} />
+                </div>
+              </div>
+              <div className="absolute contents inset-[72.84%_29.41%_15.89%_58.81%]" data-node-id="3:5449" data-name="Group">
+                <div className="absolute inset-[75.89%_29.41%_15.89%_58.81%] mix-blend-multiply" data-node-id="3:5450" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup51} />
+                </div>
+                <div className="absolute inset-[77.51%_30.51%_17.34%_62.23%]" data-node-id="3:5473" data-name="Rectangle">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle3} />
+                  </div>
+                </div>
+                <div className="absolute inset-[72.84%_29.41%_17.87%_61.13%]" data-node-id="3:5474" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup52} />
+                </div>
+              </div>
+              <div className="absolute contents inset-[78.49%_33.96%_10.28%_54.26%]" data-node-id="3:5492" data-name="Group">
+                <div className="absolute inset-[81.5%_33.96%_10.28%_54.26%] mix-blend-multiply" data-node-id="3:5493" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup53} />
+                </div>
+                <div className="absolute inset-[78.49%_33.96%_12.26%_56.62%]" data-node-id="3:5516" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup54} />
+                </div>
+              </div>
+              <div className="absolute contents inset-[21.52%_52.27%_62.39%_34.98%]" data-node-id="3:5534" data-name="Group">
+                <div className="absolute inset-[28.72%_52.28%_62.39%_34.98%] mix-blend-multiply" data-node-id="3:5535" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup55} />
+                </div>
+                <div className="absolute inset-[21.52%_52.27%_64.09%_37.43%]" data-node-id="3:5548" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup56} />
+                </div>
+              </div>
+              <div className="absolute contents inset-[-2.08%_38.33%_82.46%_46.44%]" data-node-id="3:5555" data-name="Group">
+                <div className="absolute inset-[6.9%_38.33%_82.46%_46.44%] mix-blend-multiply" data-node-id="3:5556" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup57} />
+                </div>
+                <div className="absolute inset-[-2.08%_38.33%_84.09%_48.77%]" data-node-id="3:5579" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup58} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  );
+}

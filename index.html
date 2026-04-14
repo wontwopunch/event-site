@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=20260413" />
+  <link rel="stylesheet" href="css/style.css?v=20260414n" />
 </head>
 <body>
 
@@ -19,15 +19,15 @@
       <a href="#" class="logo">
         <span class="logo-signal">Signal</span><span class="logo-decode">Decode</span>
       </a>
-      <nav class="pill-nav">
-        <a href="#what-we-do" class="pill-nav__item">사업영역</a>
-        <a href="#company-intro" class="pill-nav__item">회사소개</a>
-        <a href="#our-strength" class="pill-nav__item">강점</a>
-        <a href="#our-projects" class="pill-nav__item">주요실적</a>
-        <a href="#review" class="pill-nav__item">고객후기</a>
-        <a href="#faq" class="pill-nav__item">FAQ</a>
-        <a href="#contact" class="pill-nav__item pill-nav__item--cta">문의하기</a>
+      <nav class="header-nav" aria-label="주요 메뉴">
+        <a href="#what-we-do" class="header-nav__link">사업영역</a>
+        <a href="#company-intro" class="header-nav__link">회사소개</a>
+        <a href="#our-strength" class="header-nav__link">강점</a>
+        <a href="#our-projects" class="header-nav__link">주요실적</a>
+        <a href="#review" class="header-nav__link">고객후기</a>
+        <a href="#faq" class="header-nav__link">FAQ</a>
       </nav>
+      <a href="#contact" class="header-cta">문의하기</a>
       <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
         <span></span><span></span><span></span>
       </button>
@@ -51,588 +51,519 @@
         <div class="hero__content">
           <p class="hero__eyebrow reveal">기업 IT · 디지털 전환</p>
           <h1 class="hero__title reveal reveal--delay-1">
-            신뢰할 수 있는 기술로<br /><em>비즈니스의 내일을 준비합니다.</em>
+            <span class="hero__title-line hero__title-line--dark">신뢰할 수 있는 기술로</span>
+            <span class="hero__title-line hero__title-line--accent">비즈니스의 내일을</span>
+            <span class="hero__title-line hero__title-line--accent">준비합니다.</span>
           </h1>
           <p class="hero__desc reveal reveal--delay-2">
-            기업 환경에 맞는 시스템 설계와 안정적인 운영을 바탕으로,<br class="pc-only" />
+            기업 환경에 맞는 시스템 설계와 안정적인 운영으로<br />
             고객의 업무 효율과 경쟁력 강화를 함께 만들어 갑니다.
           </p>
           <div class="hero__actions reveal reveal--delay-3">
-            <a href="#contact" class="btn btn--dark">도입 문의</a>
-            <a href="#our-projects" class="btn btn--outline">주요 실적 보기</a>
+            <a href="#contact" class="btn btn--hero-primary">도입문의</a>
+            <a href="#our-projects" class="btn btn--hero-outline">주요 실적 보기</a>
           </div>
         </div>
 
-        <!-- 대형 블랙 쇼케이스 -->
-        <div class="hero__showcase reveal reveal--delay-2">
-          <div class="showcase-card">
-            <div class="showcase-card__inner">
-              <div class="showcase-card__logo">
-                <img src="images/temp-icon.jpg" alt="임시 이미지입니다" class="showcase-logo-img" />
-                <div class="showcase-card__logo-text">
-                  <span class="showcase-card__wordmark">SIGNAL DECODE</span>
-                  <p class="showcase-img-note">임시 이미지입니다</p>
+        <div class="hero__visual reveal reveal--delay-2">
+          <div class="hero-chart-shell">
+            <div class="hero-chart-card">
+              <p class="hero-chart__caption">Our Business performance</p>
+              <div class="hero-chart__body">
+                <div class="hero-chart__y" aria-hidden="true">
+                  <span>400</span>
+                  <span>300</span>
+                  <span>200</span>
+                  <span>100</span>
+                  <span>0</span>
+                </div>
+                <div class="hero-chart__plot">
+                  <div class="hero-chart__grid" aria-hidden="true"></div>
+                  <div class="hero-chart__bars">
+                    <div class="hero-chart__col"><div class="hero-chart__bar hero-chart__bar--1"></div></div>
+                    <div class="hero-chart__col"><div class="hero-chart__bar hero-chart__bar--2"></div></div>
+                    <div class="hero-chart__col"><div class="hero-chart__bar hero-chart__bar--3"></div></div>
+                    <div class="hero-chart__col"><div class="hero-chart__bar hero-chart__bar--4"></div></div>
+                    <div class="hero-chart__col"><div class="hero-chart__bar hero-chart__bar--5"></div></div>
+                  </div>
+                  <div class="hero-chart__x">
+                    <span>2000</span>
+                    <span>2005</span>
+                    <span>2010</span>
+                    <span>2020</span>
+                    <span>2026</span>
+                  </div>
                 </div>
               </div>
-              <div class="showcase-card__badge">
-                <span>Enterprise IT</span>
-                <div class="toss-badge">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#0064FF"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                  <span>보안·품질 기준 준수</span>
-                </div>
-              </div>
-              <div class="showcase-card__stats">
-                <div class="stat-item">
-                  <span class="stat-num" data-target="120">0</span><span class="stat-unit">+</span>
-                  <span class="stat-label">구축 실적</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                  <span class="stat-num" data-target="98">0</span><span class="stat-unit">%</span>
-                  <span class="stat-label">재계약률</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                  <span class="stat-num" data-target="5">0</span><span class="stat-unit">년</span>
-                  <span class="stat-label">업력</span>
-                </div>
-              </div>
-            </div>
-            <div class="showcase-card__deco">
-              <div class="deco-circle deco-circle--1"></div>
-              <div class="deco-circle deco-circle--2"></div>
-              <div class="deco-dot-grid"></div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- 파트너 로고 스트립 -->
+      <!-- 파트너 분야 스트립 -->
       <div class="partner-strip">
         <div class="partner-strip__inner">
           <span class="partner-strip__label">주요 협력·고객 분야</span>
           <div class="partner-logos">
             <span class="partner-logo-item">금융</span>
-            <span class="partner-logo-sep">·</span>
+            <span class="partner-dot" aria-hidden="true"></span>
             <span class="partner-logo-item">제조</span>
-            <span class="partner-logo-sep">·</span>
+            <span class="partner-dot" aria-hidden="true"></span>
             <span class="partner-logo-item">유통·물류</span>
-            <span class="partner-logo-sep">·</span>
+            <span class="partner-dot" aria-hidden="true"></span>
             <span class="partner-logo-item">공공</span>
-            <span class="partner-logo-sep">·</span>
+            <span class="partner-dot" aria-hidden="true"></span>
             <span class="partner-logo-item">의료</span>
-            <span class="partner-logo-sep">·</span>
+            <span class="partner-dot" aria-hidden="true"></span>
             <span class="partner-logo-item">IT·서비스</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== WHAT WE DO ===== -->
+    <!-- ===== WHAT WE DO (Figma 6:375) ===== -->
     <section class="section what-we-do" id="what-we-do">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-badge">
-            <span class="section-num">01</span>
-          </div>
-          <div>
-            <h2 class="section-title">사업 영역</h2>
-            <p class="section-desc">
-              기업의 디지털 전환과 업무 시스템 고도화에 필요한 컨설팅부터 구축·운영까지<br class="pc-only" />
-              일관된 품질 기준으로 지원합니다.
-            </p>
-          </div>
-        </div>
+        <header class="what-we-do__head reveal">
+          <h2 class="what-we-do__title">사업 영역</h2>
+          <p class="what-we-do__lead">
+            기업의 디지털 전환과 업무 시스템 고도화에 필요한<br />
+            컨설팅부터 구축·운영까지 일관된 품질 기준으로 지원합니다.
+          </p>
+        </header>
 
         <div class="service-cards">
-          <div class="service-card reveal reveal--delay-1">
+          <article class="service-card reveal reveal--delay-1">
             <div class="service-card__icon">
-              <img src="images/temp-icon.jpg" alt="임시 이미지입니다" />
+              <img src="images/what-we-do-cx.svg" alt="고객 경험 설계" width="60" height="60" />
             </div>
-            <p class="service-card__temp-label">임시 이미지입니다</p>
             <h3 class="service-card__title">고객 경험(CX) 설계</h3>
             <p class="service-card__desc">
-              브랜드 톤에 맞는 디지털 접점을 정리하고, 화면 흐름·프로토타입·디자인 검수까지 일관된 기준으로 지원합니다.
+              브랜드 톤에 맞는 디지털 접점을 정리하고,<br />
+              화면 흐름·프로토타입·디자인 검수까지 일관된 기준으로 지원합니다.
             </p>
             <div class="service-card__tags">
-              <span class="tag">터치포인트</span>
-              <span class="tag">프로토타입</span>
-              <span class="tag">디자인 QA</span>
+              <span class="tag tag--service">터치포인트</span>
+              <span class="tag tag--service">프로토타입</span>
+              <span class="tag tag--service">디자인 QA</span>
             </div>
-          </div>
+          </article>
 
-          <div class="service-card reveal reveal--delay-2">
-            <div class="service-card__icon">
-              <img src="images/temp-icon.jpg" alt="임시 이미지입니다" />
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon service-card__icon--blue">
+              <img src="images/what-we-do-enterprise.svg" alt="엔터프라이즈 애플리케이션" width="31" height="26" />
             </div>
-            <p class="service-card__temp-label">임시 이미지입니다</p>
             <h3 class="service-card__title">엔터프라이즈 애플리케이션</h3>
             <p class="service-card__desc">
               사내·대외 포털, 결재·인사 등 업무용 소프트웨어를 요구사항에 맞게 설계·개발하고, 레거시·외부 시스템과 안정적으로 연동합니다.
             </p>
             <div class="service-card__tags">
-              <span class="tag">맞춤 개발</span>
-              <span class="tag">SSO·인증</span>
-              <span class="tag">API 연동</span>
+              <span class="tag tag--service">터치포인트</span>
+              <span class="tag tag--service">프로토타입</span>
+              <span class="tag tag--service">디자인 QA</span>
             </div>
-          </div>
+          </article>
 
-          <div class="service-card reveal reveal--delay-3">
+          <article class="service-card reveal reveal--delay-3">
             <div class="service-card__icon">
-              <img src="images/temp-icon.jpg" alt="임시 이미지입니다" />
+              <img src="images/what-we-do-infra.svg" alt="운영 인프라·정보 전략" width="60" height="60" />
             </div>
-            <p class="service-card__temp-label">임시 이미지입니다</p>
             <h3 class="service-card__title">운영 인프라·정보 전략</h3>
             <p class="service-card__desc">
-              클라우드 이전·하이브리드 운영, 모니터링·백업 체계와 데이터 적재·분석 환경을 함께 설계하고 이행을 관리합니다.
+              클라우드 이전·하이브리드 운영, 모니터링·백업<br />
+              체계와 데이터 적재·분석 환경을 함께 설계하고<br />
+              이행을 관리합니다.
             </p>
             <div class="service-card__tags">
-              <span class="tag">인프라 이행</span>
-              <span class="tag">데이터 플랫폼</span>
-              <span class="tag">거버넌스</span>
+              <span class="tag tag--service">터치포인트</span>
+              <span class="tag tag--service">프로토타입</span>
+              <span class="tag tag--service">디자인 QA</span>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== COMPANY INTRO ===== -->
+    <!-- ===== COMPANY INTRO (배경 Figma 4:349 · 헤더 4:372·4:373 · 카드 4:370) ===== -->
     <section class="section company-intro" id="company-intro">
-      <div class="container">
-        <div class="section-header reveal revealed">
-          <div class="section-badge">
-            <span class="section-num">02</span>
-          </div>
-          <div>
-            <h2 class="section-title">회사 소개</h2>
-            <p class="section-desc">
-              SignalDecode는 기업 환경에 맞는 IT 전략과 실행력을 바탕으로,<br class="pc-only" />
-              디지털 전환과 안정적인 시스템 운영을 함께 만들어 가는 기술 파트너입니다.
-            </p>
-          </div>
-        </div>
+      <div class="company-intro__bg" aria-hidden="true">
+        <img src="images/company-intro-bg.jpg" alt="" width="1920" height="742" loading="lazy" />
+      </div>
+      <div class="container company-intro__inner">
+        <header class="company-intro__head reveal">
+          <h2 class="company-intro__title">회사 소개</h2>
+          <p class="company-intro__lead">
+            SignalDecode는 기업 환경에 맞는 IT 전략과 실행력을 바탕으로,<br />
+            디지털 전환과 안정적인 시스템 운영을 함께 만들어 가는 기술 파트너입니다.
+          </p>
+        </header>
 
-        <div class="company-intro__layout">
-          <div class="company-intro__grid">
-            <article class="company-card reveal revealed reveal--delay-1">
-              <div class="company-card__icon" aria-hidden="true"><i class="fas fa-bullseye"></i></div>
-              <h3 class="company-card__title">미션</h3>
-              <p class="company-card__desc">고객의 비즈니스 목표에 맞는 기술적 해법을 제시하고, 재현 가능한 품질 기준으로 납품합니다.</p>
-            </article>
-            <article class="company-card reveal revealed reveal--delay-2">
-              <div class="company-card__icon" aria-hidden="true"><i class="fas fa-eye"></i></div>
-              <h3 class="company-card__title">비전</h3>
-              <p class="company-card__desc">데이터와 시스템이 유기적으로 연결된 기업 운영 환경을 실현하는 데 기여합니다.</p>
-            </article>
-            <article class="company-card reveal revealed reveal--delay-3">
-              <div class="company-card__icon" aria-hidden="true"><i class="fas fa-handshake"></i></div>
-              <h3 class="company-card__title">가치</h3>
-              <p class="company-card__desc">투명한 커뮤니케이션과 책임 있는 이행으로 장기적인 신뢰 관계를 지향합니다.</p>
-            </article>
-          </div>
+        <div class="company-intro__grid">
+          <article class="company-intro-card reveal reveal--delay-1">
+            <div class="company-intro-card__body">
+              <h3 class="company-intro-card__title">미션</h3>
+              <div class="company-intro-card__desc">
+                <p>고객의 비즈니스 목표에 맞는 기술적 해법을</p>
+                <p>제시하고, 재현 가능한 품질 기준으로 납품</p>
+              </div>
+            </div>
+          </article>
+          <article class="company-intro-card reveal reveal--delay-2">
+            <div class="company-intro-card__body">
+              <h3 class="company-intro-card__title">비전</h3>
+              <div class="company-intro-card__desc">
+                <p>데이터와 시스템이 유기적으로 연결된 기업 운영</p>
+                <p>환경을 실현하는 데 기여합니다.</p>
+              </div>
+            </div>
+          </article>
+          <article class="company-intro-card reveal reveal--delay-3">
+            <div class="company-intro-card__body">
+              <h3 class="company-intro-card__title">가치</h3>
+              <div class="company-intro-card__desc">
+                <p>투명한 커뮤니케이션과 책임 있는 이행으로 장기적인 신뢰 관계를 지향합니다.</p>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== OUR STRENGTH ===== -->
+    <!-- ===== OUR STRENGTH (헤더 1:1389·1:1390 · 본문 4:347 · 배너 1:1409) ===== -->
     <section class="section our-strength" id="our-strength">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-badge">
-            <span class="section-num">03</span>
-          </div>
-          <div>
-            <h2 class="section-title">회사 강점</h2>
-            <p class="section-desc">
-              컨설팅부터 구축, 운영·유지보수까지 전 과정을 책임지는 체계적인 프로젝트 관리로<br class="pc-only" />
-              중장기적인 파트너십을 지향합니다.
-            </p>
-          </div>
-        </div>
+        <header class="our-strength__head reveal">
+          <h2 class="our-strength__title">회사 강점</h2>
+          <p class="our-strength__lead">
+            컨설팅부터 구축, 운영·유지보수까지 전 과정을 책임지는<br />
+            체계적인 프로젝트 관리로 중장기적인 파트너십을 지향합니다.
+          </p>
+        </header>
 
         <div class="strength-layout">
-          <div class="strength-image-wrap reveal reveal--delay-1">
-            <div class="strength-image">
-              <img src="images/temp-strength.jpg" alt="임시 이미지입니다 — 회사 강점" />
-            </div>
-            <p class="media-temp-caption">임시 이미지입니다</p>
+          <div class="strength-visual reveal reveal--delay-1">
+            <img src="images/strength-visual.jpg" alt="" width="552" height="342" loading="lazy" />
           </div>
-          <div class="strength-list">
-            <div class="strength-item reveal reveal--delay-1">
-              <div class="strength-item__dot"></div>
-              <div>
-                <h4 class="strength-item__title">체계적인 요구사항 정리</h4>
-                <p class="strength-item__desc">현업·경영진과의 워크숍을 통해 업무 프로세스를 정리하고, 우선순위에 맞는 로드맵을 제안합니다.</p>
+          <div class="strength-cards" role="list">
+            <article class="strength-card strength-card--active reveal reveal--delay-1" role="listitem" aria-current="true">
+              <div class="strength-card__icon" aria-hidden="true">
+                <svg class="strength-card__svg" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M31.5 24V12C31.4995 11.4739 31.3606 10.9572 31.0973 10.5017C30.834 10.0463 30.4556 9.66804 30 9.405L19.5 3.405C19.0439 3.14169 18.5266 3.00308 18 3.00308C17.4734 3.00308 16.9561 3.14169 16.5 3.405L6 9.405C5.54439 9.66804 5.16597 10.0463 4.90269 10.5017C4.63941 10.9572 4.50054 11.4739 4.5 12V24C4.50054 24.5261 4.63941 25.0428 4.90269 25.4983C5.16597 25.9537 5.54439 26.332 6 26.595L16.5 32.595C16.9561 32.8583 17.4734 32.9969 18 32.9969C18.5266 32.9969 19.0439 32.8583 19.5 32.595L30 26.595C30.4556 26.332 30.834 25.9537 31.0973 25.4983C31.3606 25.0428 31.4995 24.5261 31.5 24Z" />
+                    <path d="M4.905 10.44L18 18.015L31.095 10.44" />
+                    <path d="M18 33.12V18" />
+                  </g>
+                </svg>
               </div>
-            </div>
-            <div class="strength-item reveal reveal--delay-2">
-              <div class="strength-item__dot"></div>
-              <div>
-                <h4 class="strength-item__title">검증된 개발·운영 프로세스</h4>
-                <p class="strength-item__desc">표준 개발 방법론과 이슈·변경 관리 체계로 일정과 품질을 투명하게 공유합니다.</p>
+              <div class="strength-card__text">
+                <h3 class="strength-card__title">체계적인 요구사항 정리</h3>
+                <p class="strength-card__desc">현업·경영진과의 워크숍을 통해 업무 프로세스를 정리</p>
               </div>
-            </div>
-            <div class="strength-item reveal reveal--delay-3">
-              <div class="strength-item__dot"></div>
-              <div>
-                <h4 class="strength-item__title">규제·보안 환경 이해</h4>
-                <p class="strength-item__desc">업종별 규제와 내부통제 요건을 반영한 아키텍처와 권한 설계를 지원합니다.</p>
+            </article>
+            <article class="strength-card reveal reveal--delay-2" role="listitem" aria-current="false">
+              <div class="strength-card__icon" aria-hidden="true">
+                <svg class="strength-card__svg" width="32" height="32" viewBox="0 0 28.1667 28.1667" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16.19 16.47C16.55 17.3767 16.75 18.3767 16.75 19.4167C16.75 21.7767 15.7233 23.91 14.0833 25.3633C12.6237 26.6888 10.7216 27.4211 8.75 27.4167C4.33667 27.4167 0.75 23.83 0.75 19.4167C0.75 15.7367 3.25667 12.6167 6.64333 11.6967" />
+                    <path d="M21.5233 11.6967C24.91 12.6167 27.4167 15.7367 27.4167 19.4167C27.4167 23.83 23.83 27.4167 19.4167 27.4167C17.4451 27.4211 15.5429 26.6888 14.0833 25.3633" />
+                    <path d="M6.08333 8.75C6.08333 10.8717 6.92619 12.9066 8.42648 14.4069C9.92677 15.9071 11.9616 16.75 14.0833 16.75C16.2051 16.75 18.2399 15.9071 19.7402 14.4069C21.2405 12.9066 22.0833 10.8717 22.0833 8.75C22.0833 6.62827 21.2405 4.59344 19.7402 3.09315C18.2399 1.59285 16.2051 0.75 14.0833 0.75C11.9616 0.75 9.92677 1.59285 8.42648 3.09315C6.92619 4.59344 6.08333 6.62827 6.08333 8.75Z" />
+                  </g>
+                </svg>
               </div>
-            </div>
-            <div class="strength-item reveal reveal--delay-4">
-              <div class="strength-item__dot"></div>
-              <div>
-                <h4 class="strength-item__title">지속 가능한 유지보수</h4>
-                <p class="strength-item__desc">오픈 이후 모니터링, 장애 대응, 기능 개선까지 SLA에 따른 안정적인 운영을 제공합니다.</p>
+              <div class="strength-card__text">
+                <h3 class="strength-card__title">검증된 개발·운영 프로세스</h3>
+                <p class="strength-card__desc">표준 개발 방법론과 이슈·변경 관리 체계로 일정과 품질을 투명하게 공유</p>
               </div>
-            </div>
+            </article>
+            <article class="strength-card reveal reveal--delay-3" role="listitem" aria-current="false">
+              <div class="strength-card__icon" aria-hidden="true">
+                <svg class="strength-card__svg" width="32" height="32" viewBox="0 0 26.2313 26.1898" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g stroke="currentColor" stroke-width="1.5">
+                    <path d="M10.2523 16.6056L1.98432 11.3442C1.60603 11.1033 1.29461 10.7709 1.07886 10.3778C0.863108 9.9846 0.75 9.54337 0.75 9.09489C0.75 8.64642 0.863108 8.20519 1.07886 7.81202C1.29461 7.41885 1.60603 7.08645 1.98432 6.84556L10.251 1.58423C11.1069 1.0394 12.1004 0.75 13.115 0.75C14.1296 0.75 15.1231 1.0394 15.979 1.58423L24.2457 6.84556C24.6239 7.08645 24.9354 7.41885 25.1511 7.81202C25.3669 8.20519 25.48 8.64642 25.48 9.09489C25.48 9.54337 25.3669 9.9846 25.1511 10.3778C24.9354 10.7709 24.6239 11.1033 24.2457 11.3442L15.979 16.6056C15.1231 17.1504 14.1296 17.4398 13.115 17.4398C12.1004 17.4398 11.1082 17.1504 10.2523 16.6056Z" />
+                    <path d="M21.4963 13.0949L24.247 14.8456C24.6253 15.0864 24.9367 15.4189 25.1525 15.812C25.3682 16.2052 25.4813 16.6464 25.4813 17.0949C25.4813 17.5434 25.3682 17.9846 25.1525 18.3778C24.9367 18.7709 24.6253 19.1033 24.247 19.3442L15.979 24.6056C15.1231 25.1504 14.1296 25.4398 13.115 25.4398C12.1004 25.4398 11.1069 25.1504 10.251 24.6056L1.98432 19.3442C1.60603 19.1033 1.29461 18.7709 1.07886 18.3778C0.863108 17.9846 0.75 17.5434 0.75 17.0949C0.75 16.6464 0.863108 16.2052 1.07886 15.812C1.29461 15.4189 1.60603 15.0864 1.98432 14.8456L4.73366 13.0949" />
+                  </g>
+                </svg>
+              </div>
+              <div class="strength-card__text">
+                <h3 class="strength-card__title">규제·보안 환경 이해</h3>
+                <p class="strength-card__desc">업종별 규제와 내부통제 요건을 반영한 아키텍처와 권한 설계를 지원</p>
+              </div>
+            </article>
           </div>
         </div>
 
-        <!-- 정부지원금 배너 -->
         <div class="funding-banner reveal">
-          <div class="funding-banner__inner">
-            <div class="funding-banner__text">
-              <span class="funding-label">정책·지원 안내</span>
-              <p>중소기업·스타트업 대상 <strong>정부 및 지자체 지원 사업</strong> 등 관련 제도 안내와 신청 준비를 도와드립니다.</p>
-            </div>
-            <a href="#contact" class="btn btn--blue-sm">지원 제도 문의 →</a>
+          <div class="funding-banner__copy">
+            <span class="funding-banner__label">정책·지원 안내</span>
+            <p class="funding-banner__text">
+              <span>중소기업·스타트업 대상 </span><strong>정부 및 지자체 지원 사업</strong><span> 등 관련 제도 안내와 신청 준비를 도와드립니다.</span>
+            </p>
           </div>
+          <a href="#contact" class="funding-banner__cta">지원 제도 문의 →</a>
         </div>
       </div>
     </section>
 
-    <!-- ===== OUR PROJECTS ===== -->
+    <!-- ===== OUR PROJECTS (Figma node 6:374) ===== -->
     <section class="section our-projects" id="our-projects">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-badge">
-            <span class="section-num">04</span>
-          </div>
-          <div>
-            <h2 class="section-title">주요 실적</h2>
-            <p class="section-desc">
-              다양한 산업군에서 진행한 대표 프로젝트입니다. 상세 내용은 비공개 계약에 따라 일부만 공개합니다.
-            </p>
+        <div class="section-header section-header--center our-projects__header reveal">
+          <h2 class="section-title section-title--projects">주요 실적</h2>
+          <div class="section-desc section-desc--projects">
+            <p>다양한 산업군에서 진행한 대표 프로젝트입니다.</p>
+            <p>상세 내용은 비공개 계약에 따라 일부만 공개합니다.</p>
           </div>
         </div>
 
         <div class="projects-grid">
-          <div class="project-card reveal reveal--delay-1">
+          <article class="project-card reveal reveal--delay-1">
             <div class="project-card__img">
-              <img src="images/temp-project-01.jpg" alt="임시 이미지입니다 — 주요 실적" loading="lazy" />
-              <div class="project-card__overlay">
-                <span class="project-card__view">자세히 보기 →</span>
-              </div>
+              <img
+                class="project-card__illus"
+                src="images/project-illus-01.png"
+                alt=""
+                width="262"
+                height="188"
+                loading="eager"
+                decoding="async"
+              />
             </div>
             <div class="project-card__body">
               <div class="project-card__tags">
-                <span class="tag tag--sm">UI/UX</span>
-                <span class="tag tag--sm">Web</span>
-                <span class="tag tag--sm">브랜드</span>
+                <span class="tag tag--project">UI/UX</span>
+                <span class="tag tag--project">Web</span>
+                <span class="tag tag--project">브랜드</span>
               </div>
-              <h3 class="project-card__title">그룹 통합 웹 리뉴얼</h3>
-              <p class="project-card__desc">계열사별 분산되어 있던 웹 채널을 통합하고, 브랜드 가이드에 맞춘 반응형 기업 사이트를 구축한 사례입니다.</p>
+              <div class="project-card__text">
+                <h3 class="project-card__title">그룹 통합 웹 리뉴얼</h3>
+                <p class="project-card__desc">
+                  계열사별 분산되어 있던 웹 채널을 통합하고,<br />
+                  브랜드 가이드에 맞춘 반응형 기업 사이트 구축 사례
+                </p>
+              </div>
             </div>
-          </div>
+          </article>
 
-          <div class="project-card reveal reveal--delay-2">
+          <article class="project-card reveal reveal--delay-2">
             <div class="project-card__img">
-              <img src="images/temp-project-02.jpg" alt="임시 이미지입니다 — 주요 실적" loading="lazy" />
-              <div class="project-card__overlay">
-                <span class="project-card__view">자세히 보기 →</span>
-              </div>
+              <img
+                class="project-card__illus"
+                src="images/project-illus-02.png"
+                alt=""
+                width="262"
+                height="188"
+                loading="lazy"
+              />
             </div>
             <div class="project-card__body">
               <div class="project-card__tags">
-                <span class="tag tag--sm">Web</span>
-                <span class="tag tag--sm">물류</span>
-                <span class="tag tag--sm">플랫폼</span>
+                <span class="tag tag--project">Web</span>
+                <span class="tag tag--project">물류</span>
+                <span class="tag tag--project">플랫폼</span>
               </div>
-              <h3 class="project-card__title">SCM·재고 가시화 시스템</h3>
-              <p class="project-card__desc">발주·입고·출고 데이터를 실시간으로 연동하여 재고 정확도와 물류 리드타임을 개선한 통합 SCM 구축 사례입니다.</p>
+              <div class="project-card__text">
+                <h3 class="project-card__title">SCM · 재고 가시화 시스템</h3>
+                <p class="project-card__desc">
+                  발주·입고·출고 데이터를 실시간으로 연동하여 재고<br />
+                  정확도와 물류 리드타임을 개선한 통합 SCM 구축 사례
+                </p>
+              </div>
             </div>
-          </div>
+          </article>
 
-          <div class="project-card reveal reveal--delay-3">
+          <article class="project-card reveal reveal--delay-3">
             <div class="project-card__img">
-              <img src="images/temp-project-03.jpg" alt="임시 이미지입니다 — 주요 실적" loading="lazy" />
-              <div class="project-card__overlay">
-                <span class="project-card__view">자세히 보기 →</span>
-              </div>
+              <img
+                class="project-card__illus"
+                src="images/project-illus-03.png"
+                alt=""
+                width="262"
+                height="188"
+                loading="lazy"
+              />
             </div>
             <div class="project-card__body">
               <div class="project-card__tags">
-                <span class="tag tag--sm">AI</span>
-                <span class="tag tag--sm">채널</span>
-                <span class="tag tag--sm">금융</span>
+                <span class="tag tag--project">Web</span>
+                <span class="tag tag--project">물류</span>
+                <span class="tag tag--project">플랫폼</span>
               </div>
-              <h3 class="project-card__title">고객 상담 채널 통합</h3>
-              <p class="project-card__desc">콜센터·모바일·웹 문의를 단일 큐로 통합하고, 상담 이력과 업무 지식을 연계한 금융권 채널 고도화 프로젝트입니다.</p>
+              <div class="project-card__text">
+                <h3 class="project-card__title">고객 상담 채널 통합</h3>
+                <p class="project-card__desc">
+                  콜센터·모바일·웹 문의를 단일 큐로 통합 및 상담 이력과<br />
+                  업무 지식을 연계한 금융권 채널 고도화 프로젝트
+                </p>
+              </div>
             </div>
-          </div>
+          </article>
 
-          <div class="project-card reveal reveal--delay-1">
+          <article class="project-card reveal reveal--delay-1">
             <div class="project-card__img">
-              <img src="images/temp-project-04.jpg" alt="임시 이미지입니다 — 주요 실적" loading="lazy" />
-              <div class="project-card__overlay">
-                <span class="project-card__view">자세히 보기 →</span>
-              </div>
+              <img
+                class="project-card__illus"
+                src="images/project-illus-04.png"
+                alt=""
+                loading="lazy"
+                width="262"
+                height="188"
+              />
             </div>
             <div class="project-card__body">
               <div class="project-card__tags">
-                <span class="tag tag--sm">그룹웨어</span>
-                <span class="tag tag--sm">전자결재</span>
-                <span class="tag tag--sm">Web</span>
+                <span class="tag tag--project">그룹웨어</span>
+                <span class="tag tag--project">전자결재</span>
+                <span class="tag tag--project">Web</span>
               </div>
-              <h3 class="project-card__title">사내 전자결재·근태 연동</h3>
-              <p class="project-card__desc">인사·회계 시스템과 연동된 결재선·근태 관리로 내부 통제와 업무 효율을 동시에 강화한 구축 사례입니다.</p>
+              <div class="project-card__text">
+                <h3 class="project-card__title">사내 전자결재 · 근태 연동</h3>
+                <p class="project-card__desc">
+                  인사·회계 시스템과 연동된 결재선·근태 관리로 내부 통제와 업무 효율을 동시에 강화한 구축 사례
+                </p>
+              </div>
             </div>
-          </div>
+          </article>
 
-          <div class="project-card reveal reveal--delay-2">
+          <article class="project-card reveal reveal--delay-2">
             <div class="project-card__img">
-              <img src="images/temp-project-05.jpg" alt="임시 이미지입니다 — 주요 실적" loading="lazy" />
-              <div class="project-card__overlay">
-                <span class="project-card__view">자세히 보기 →</span>
-              </div>
+              <img
+                class="project-card__illus"
+                src="images/project-illus-05.png"
+                alt=""
+                loading="lazy"
+                width="262"
+                height="188"
+              />
             </div>
             <div class="project-card__body">
               <div class="project-card__tags">
-                <span class="tag tag--sm">B2B</span>
-                <span class="tag tag--sm">커머스</span>
-                <span class="tag tag--sm">플랫폼</span>
+                <span class="tag tag--project">B2B</span>
+                <span class="tag tag--project">커머스</span>
+                <span class="tag tag--project">플랫폼</span>
               </div>
-              <h3 class="project-card__title">도매 B2B 주문 포털</h3>
-              <p class="project-card__desc">대리점별 단가·수량 조건을 반영한 주문·정산 프로세스를 자동화한 유통 도매 전용 포털 구축 프로젝트입니다.</p>
+              <div class="project-card__text">
+                <h3 class="project-card__title">도매 B2B 주문 포털</h3>
+                <p class="project-card__desc">
+                  대리점별 단가·수량 조건을 반영한 주문·정산<br />
+                  과정을 자동화한 유통 도매 전용 포털 구축 프로젝트
+                </p>
+              </div>
             </div>
-          </div>
+          </article>
 
-          <div class="project-card reveal reveal--delay-3">
+          <article class="project-card reveal reveal--delay-3">
             <div class="project-card__img">
-              <img src="images/temp-project-06.jpg" alt="임시 이미지입니다 — 주요 실적" loading="lazy" />
-              <div class="project-card__overlay">
-                <span class="project-card__view">자세히 보기 →</span>
-              </div>
+              <img
+                class="project-card__illus"
+                src="images/project-illus-06.png"
+                alt=""
+                loading="lazy"
+                width="262"
+                height="188"
+              />
             </div>
             <div class="project-card__body">
               <div class="project-card__tags">
-                <span class="tag tag--sm">BI</span>
-                <span class="tag tag--sm">대시보드</span>
-                <span class="tag tag--sm">데이터</span>
+                <span class="tag tag--project">BI</span>
+                <span class="tag tag--project">대시보드</span>
+                <span class="tag tag--project">데이터</span>
               </div>
-              <h3 class="project-card__title">경영 KPI 대시보드</h3>
-              <p class="project-card__desc">영업·재무·운영 지표를 한 화면에서 확인할 수 있도록 데이터 웨어하우스와 연계한 경영진용 리포팅 환경을 구축했습니다.</p>
+              <div class="project-card__text">
+                <h3 class="project-card__title">경영 KPI 대시보드</h3>
+                <p class="project-card__desc">
+                  영업·재무·운영 지표를 한번에 확인이 가능한 데이터 웨어하우스와 연계된 경영진용 리포팅 환경 구축
+                </p>
+              </div>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== REVIEW ===== -->
+    <!-- ===== REVIEW (Figma 6:2706 — 무한 캐러셀) ===== -->
     <section class="section review" id="review">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-badge">
-            <span class="section-num">05</span>
-          </div>
-          <div>
-            <h2 class="section-title">고객 후기</h2>
-            <p class="section-desc">SignalDecode와 함께한 고객사의 일부 의견입니다.</p>
+        <div class="review__head section-header section-header--center reveal">
+          <h2 class="review__title">고객 후기</h2>
+          <div class="review__lead">
+            <p>기업의 디지털 전환과 업무 시스템 고도화에 필요한</p>
+            <p>컨설팅부터 구축·운영까지 일관된 품질 기준으로 지원합니다.</p>
           </div>
         </div>
 
-        <div class="review-marquee-wrap">
-          <!-- 첫 번째 줄 (→ 방향) -->
-          <div class="review-track review-track--forward">
-            <div class="review-inner">
-              <div class="review-card">
-                <p class="review-card__text">"요구사항 정리부터 문서화까지 체계적으로 지원해 주셔서 내부 보고와 예산 승인이 수월했습니다. 일정과 품질 모두 기대에 부합했습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">(주) ***시스템</span>
-                  <span class="review-card__company">제조업</span>
-                </div>
-              </div>
-              <div class="review-card">
-                <p class="review-card__text">"기획·디자인·개발을 일괄 의뢰했는데, 단계별 산출물 기준이 명확해 내부 검토가 빨랐습니다. 초안부터 방향이 잘 맞았습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">***솔루션</span>
-                  <span class="review-card__company">유통</span>
-                </div>
-              </div>
-              <div class="review-card">
-                <p class="review-card__text">"해외 법인과의 시차 협업이 필요했는데, 회의·이슈 대응이 신속해 글로벌 롤아웃 일정을 지킬 수 있었습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">김**</span>
-                  <span class="review-card__company">IT 본부</span>
-                </div>
-              </div>
-              <div class="review-card">
-                <p class="review-card__text">"규제와 내부통제 요건을 반영한 권한 설계와 로그 정책까지 함께 검토해 주셔서 감사합니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">익명</span>
-                  <span class="review-card__company">금융권</span>
-                </div>
-              </div>
-              <div class="review-card">
-                <p class="review-card__text">"비IT 담당자도 이해할 수 있게 용어와 프로세스를 정리해 주셔서 경영진 보고 시 설득력이 높았습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">이**</span>
-                  <span class="review-card__company">기획실</span>
-                </div>
-              </div>
-              <div class="review-card">
-                <p class="review-card__text">"합의한 일정을 지켜 주셨고, 브랜드 가이드에 맞춘 UI로 대외용 채널에 바로 활용할 수 있었습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">박**</span>
-                  <span class="review-card__company">마케팅팀</span>
-                </div>
-              </div>
-              <!-- duplicate for seamless loop -->
-              <div class="review-card">
-                <p class="review-card__text">"요구사항 정리부터 문서화까지 체계적으로 지원해 주셔서 내부 보고와 예산 승인이 수월했습니다. 일정과 품질 모두 기대에 부합했습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">(주) ***시스템</span>
-                  <span class="review-card__company">제조업</span>
-                </div>
-              </div>
-              <div class="review-card">
-                <p class="review-card__text">"기획·디자인·개발을 일괄 의뢰했는데, 단계별 산출물 기준이 명확해 내부 검토가 빨랐습니다. 초안부터 방향이 잘 맞았습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">***솔루션</span>
-                  <span class="review-card__company">유통</span>
-                </div>
-              </div>
-              <div class="review-card">
-                <p class="review-card__text">"해외 법인과의 시차 협업이 필요했는데, 회의·이슈 대응이 신속해 글로벌 롤아웃 일정을 지킬 수 있었습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">김**</span>
-                  <span class="review-card__company">IT 본부</span>
-                </div>
-              </div>
-            </div>
+        <div class="review-carousel reveal" id="reviewCarousel" data-review-carousel>
+          <button type="button" class="review-carousel__btn review-carousel__btn--prev" aria-label="이전 후기 보기">
+            <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+          </button>
+          <div class="review-carousel__viewport">
+            <div class="review-carousel__track" id="reviewCarouselTrack" role="list"></div>
           </div>
-
-          <!-- 두 번째 줄 (← 역방향) -->
-          <div class="review-track review-track--backward">
-            <div class="review-inner">
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"다부서 요구가 많은 대규모 구축이었으나, 일정·이슈 관리가 체계적이었고 오픈 이후 유지보수 대응도 신속했습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">익명</span>
-                  <span class="review-card__company">중견 제조</span>
-                </div>
-              </div>
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"디자인·개발을 단일 파트너로 진행해 협업 비용을 줄였고, 산출물 품질도 일정 수준 이상으로 유지되었습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">B****</span>
-                  <span class="review-card__company">서비스업</span>
-                </div>
-              </div>
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"정보 구조와 콘텐츠 흐름을 사전에 제안해 주셔서 내부 검수 단계가 단축되었습니다. 품질 관리 체계가 명확했습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">윤**</span>
-                  <span class="review-card__company">유통</span>
-                </div>
-              </div>
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"초기에는 범위가 불명확했으나, 이용 시나리오 기준으로 기능 우선순위를 정리해 주셔서 의사결정에 도움이 되었습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">익명</span>
-                  <span class="review-card__company">중소기업</span>
-                </div>
-              </div>
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"요구사항을 구조화해 주시고, 업무 흐름에 맞는 UX 개선안을 제시해 주셔서 재작업을 최소화할 수 있었습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">***한</span>
-                  <span class="review-card__company">스타트업</span>
-                </div>
-              </div>
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"IT 전문 용어 없이도 이해할 수 있게 단계별로 안내해 주셔서, 경영진 보고와 예산 편성이 원활했습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">익명</span>
-                  <span class="review-card__company">전문 서비스업</span>
-                </div>
-              </div>
-              <!-- duplicate -->
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"다부서 요구가 많은 대규모 구축이었으나, 일정·이슈 관리가 체계적이었고 오픈 이후 유지보수 대응도 신속했습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">익명</span>
-                  <span class="review-card__company">중견 제조</span>
-                </div>
-              </div>
-              <div class="review-card review-card--dark">
-                <p class="review-card__text">"디자인·개발을 단일 파트너로 진행해 협업 비용을 줄였고, 산출물 품질도 일정 수준 이상으로 유지되었습니다."</p>
-                <div class="review-card__author">
-                  <span class="review-card__name">B****</span>
-                  <span class="review-card__company">서비스업</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <button type="button" class="review-carousel__btn review-carousel__btn--next" aria-label="다음 후기 보기">
+            <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
     </section>
 
-    <!-- ===== FAQ ===== -->
+    <!-- ===== FAQ (Figma 6:373) ===== -->
     <section class="section faq" id="faq">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-badge">
-            <span class="section-num">06</span>
-          </div>
-          <div>
-            <h2 class="section-title">FAQ</h2>
-            <p class="section-desc">자주 묻는 질문들을 정리했습니다.</p>
-          </div>
+        <div class="faq__head reveal">
+          <h2 class="faq__title">FAQ</h2>
+          <p class="faq__lead">자주 묻는 질문들을 정리했습니다.</p>
         </div>
 
         <div class="faq-list">
           <div class="faq-item reveal">
-            <button class="faq-question" aria-expanded="false">
-              <span>프로젝트 진행 기간은 얼마나 걸리나요?</span>
-              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span class="faq-question__label">
+                <span class="faq-qnum">Q1</span><span class="faq-qtext">. 프로젝트 진행 기간은 얼마나 걸리나요?</span>
+              </span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
             </button>
             <div class="faq-answer">
               <p>프로젝트 규모와 복잡도에 따라 다르지만, 일반적으로 MVP 개발은 4~8주, 풀스택 서비스 개발은 2~4개월 정도 소요됩니다. 상담을 통해 정확한 일정을 안내해 드립니다.</p>
             </div>
           </div>
           <div class="faq-item reveal reveal--delay-1">
-            <button class="faq-question" aria-expanded="false">
-              <span>견적은 어떻게 산정되나요?</span>
-              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span class="faq-question__label">
+                <span class="faq-qnum">Q2</span><span class="faq-qtext">. 견적은 어떻게 산정되나요?</span>
+              </span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
             </button>
             <div class="faq-answer">
               <p>요구 기능, 디자인 수준, 개발 기간 등을 종합적으로 고려하여 맞춤 견적을 제공합니다. 무료 상담을 통해 자세한 내용을 논의해 드립니다.</p>
             </div>
           </div>
           <div class="faq-item reveal reveal--delay-2">
-            <button class="faq-question" aria-expanded="false">
-              <span>기획부터 개발까지 모두 가능한가요?</span>
-              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span class="faq-question__label">
+                <span class="faq-qnum">Q3</span><span class="faq-qtext">. 기획부터 개발까지 모두 가능한가요?</span>
+              </span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
             </button>
             <div class="faq-answer">
               <p>네, 가능합니다. SignalDecode는 기획·디자인·개발·이행·운영까지 전 과정을 일괄 지원합니다. 초기 컨설팅 단계부터 참여하실 수 있습니다.</p>
             </div>
           </div>
           <div class="faq-item reveal reveal--delay-3">
-            <button class="faq-question" aria-expanded="false">
-              <span>완료 후 유지보수도 가능한가요?</span>
-              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span class="faq-question__label">
+                <span class="faq-qnum">Q4</span><span class="faq-qtext">. 완료 후 유지보수도 가능한가요?</span>
+              </span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
             </button>
             <div class="faq-answer">
               <p>네, 프로젝트 완료 후에도 유지보수 계약을 통해 지속적인 서포트가 가능합니다. 버그 수정, 기능 추가, 서버 관리 등 다양한 서비스를 제공합니다.</p>
             </div>
           </div>
           <div class="faq-item reveal reveal--delay-4">
-            <button class="faq-question" aria-expanded="false">
-              <span>정부지원금 활용이 가능한가요?</span>
-              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span class="faq-question__label">
+                <span class="faq-qnum">Q5</span><span class="faq-qtext">. 정부지원금 활용이 가능한가요?</span>
+              </span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
             </button>
             <div class="faq-answer">
               <p>업종·규모에 맞는 정부·지자체 지원 제도가 있는 경우, 신청 요건과 준비 절차를 안내해 드립니다. 자세한 내용은 상담 시 개별 안내합니다.</p>
@@ -642,61 +573,169 @@
       </div>
     </section>
 
-    <!-- ===== OUR PARTNER ===== -->
+    <!-- ===== OUR PARTNER (Figma 6:371) ===== -->
     <section class="section our-partner" id="our-partner">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-badge">
-            <span class="section-num">07</span>
-          </div>
-          <div>
-            <h2 class="section-title">협력 네트워크</h2>
-            <p class="section-desc">아래는 표시용 예시 명칭이며, 실제 협력사 정보로 교체해 사용하시면 됩니다.</p>
-          </div>
+        <div class="partner__head reveal">
+          <h2 class="partner__title">협력 네트워크</h2>
+          <p class="partner__lead">아래는 표시용 예시 명칭이며 실제 협력사 정보로 교체해 사용하시면 됩니다.</p>
         </div>
+      </div>
 
-        <div class="partner-grid reveal">
-          <div class="partner-card">
-            <div class="partner-card__logo">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2C2C2C"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="11" font-weight="700">A</text></svg>
+      <div class="partner-marquee-bleed reveal">
+        <div class="partner-marquee">
+          <div class="partner-row">
+            <div class="partner-row__track partner-row__track--forward">
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <!-- loop duplicate -->
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
             </div>
-            <span class="partner-card__name">협력사 A</span>
-            <span class="partner-card__role">기술 제휴</span>
           </div>
-          <div class="partner-card">
-            <div class="partner-card__logo">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2C2C2C"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="11" font-weight="700">B</text></svg>
+          <div class="partner-row partner-row--stagger">
+            <div class="partner-row__track partner-row__track--backward">
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
+              <div class="partner-tile">
+                <div class="partner-tile__inner">
+                  <!-- <img class="partner-tile__mark" src="images/partner-logo-mark.png" alt="" width="23" height="23" decoding="async" /> -->
+                  <span class="partner-tile__wordmark">SIGNALDECODE</span>
+                </div>
+              </div>
             </div>
-            <span class="partner-card__name">협력사 B</span>
-            <span class="partner-card__role">솔루션 공급</span>
-          </div>
-          <div class="partner-card">
-            <div class="partner-card__logo">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2C2C2C"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="11" font-weight="700">C</text></svg>
-            </div>
-            <span class="partner-card__name">협력사 C</span>
-            <span class="partner-card__role">유통·파트너십</span>
-          </div>
-          <div class="partner-card">
-            <div class="partner-card__logo">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2C2C2C"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="11" font-weight="700">D</text></svg>
-            </div>
-            <span class="partner-card__name">협력사 D</span>
-            <span class="partner-card__role">인프라</span>
-          </div>
-          <div class="partner-card">
-            <div class="partner-card__logo">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2C2C2C"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="11" font-weight="700">E</text></svg>
-            </div>
-            <span class="partner-card__name">협력사 E</span>
-            <span class="partner-card__role">컨설팅</span>
-          </div>
-          <div class="partner-card">
-            <div class="partner-card__logo">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2C2C2C"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="11" font-weight="700">F</text></svg>
-            </div>
-            <span class="partner-card__name">협력사 F</span>
-            <span class="partner-card__role">연구·교육</span>
           </div>
         </div>
       </div>
@@ -782,6 +821,6 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=20260414review2"></script>
 </body>
 </html>
